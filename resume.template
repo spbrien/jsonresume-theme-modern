@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{basics.firstName}} {{basics.lastName}}</title>
-    <link href="http://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet" />
    <style>
     </style>
 
-  
+
   </head>
   <body>
     <div class="container">
@@ -33,9 +33,6 @@
         </header>
         <div class="col-md-9">
         <p>{{basics.summary}}</p>
-        {{#basics.phone}}
-        <strong>Phone:</strong> {{basics.phone}} <br />
-        {{/basics.phone}}
         {{#basics.email}}
         <strong>Email:</strong> {{basics.email}}<br />
         {{/basics.email}}
@@ -69,7 +66,7 @@
           </div>
         </div>
       </section>
-      {{/work.length}} 
+      {{/work.length}}
 
       {{#education.length}}
       <section class="row">
@@ -93,7 +90,7 @@
           </div>
         </div>
       </section>
-      {{/education.length}} 
+      {{/education.length}}
       {{#skills.length}}
       <section class="row">
         <header class="col-md-3">
@@ -118,6 +115,7 @@
         </div>
       </section>
       {{/skills.length}}
+	  <br><br>
       {{#references.length}}
       <section class="row">
         <header class="col-md-3">
@@ -133,6 +131,7 @@
             {{/references}}
           </div>
         </div>
+        <br><br><br><br><br>
       </section>
       {{/references.length}}
 
