@@ -57,12 +57,14 @@
             <strong>{{position}}</strong>
             <p>{{startDateYear}} - {{endDateYear}}</p>
             <p>{{summary}}</p>
+			<b>Projects</b>
             <ul>
               {{#highlights}}
               <li>{{.}}</li>
               {{/highlights}}
             </ul>
 			<br>
+			<b>Technology</b>
             <ul>
               {{#experience}}
               <li>{{.}}</li>
