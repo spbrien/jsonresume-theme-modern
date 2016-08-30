@@ -62,6 +62,11 @@
               <li>{{.}}</li>
               {{/highlights}}
             </ul>
+            <ul>
+              {{#experience}}
+              <li>{{.}}</li>
+              {{/experience}}
+            </ul>
             <hr />{{/work}}
           </div>
         </div>
