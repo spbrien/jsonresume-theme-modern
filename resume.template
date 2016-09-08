@@ -22,7 +22,7 @@
         <h2>{{basics.label}}</h2>
         </div>
         <div class="col-md-6 col-sm-12">
-        <!-- <img class="media&#45;object img&#45;circle pull&#45;right" data&#45;src="holder.js/64x64" alt="64x64" src="{{basics.gravatar}}" style="width: 100px; height: 100px; margin&#45;top: 20px;"> -->
+        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="{{basics.gravatar}}" style="width: 100px; height: 100px; margin-top: 20px;">
 
         </div>
         </div>
