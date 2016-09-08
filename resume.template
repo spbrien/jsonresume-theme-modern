@@ -107,7 +107,7 @@
         <div class="col-md-9">
           <div class="row-fluid skills">
             {{#skills}}
-            <ul class="col-md-12">
+            <ul class="col-md-6">
 
               <li>
                 <h4>{{name}}</h4>
